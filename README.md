@@ -1,9 +1,9 @@
 
 <div align="center">
  
-# 📄 CSSM
+#  CSSM
 
-[E.Ghazaei](https://yourlink), [E.Aptoula](https://yourlink) 
+[**E.Ghazaei**](https://yourlink), [**E.Aptoula**](https://yourlink) 
 
  Faculty of Engineering and Natural Sciences (VPALab), Sabanci University, Istanbul, Turkiye
 
