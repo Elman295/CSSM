@@ -4,7 +4,8 @@
 
 **YourPaperTitle**  
 [E.Ghazaei](https://yourlink), [E.Aptoula](https://yourlink) 
-¹ aculty of Engineering and Natural Sciences (VPALab), Sabanci University, Istanbul, T¨urkiye
+
+¹ aculty of Engineering and Natural Sciences (VPALab), Sabanci University, Istanbul, Turkiye
 
 
 
