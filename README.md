@@ -23,16 +23,12 @@
 
 ## 🚀 Overview
 
-Brief sentence describing your project and what it does.
 
 - 🧠 Focuses on changed regions for remote sensing change detection
 - ⚡ Achieves **SOTA** with minimal parameters
 - 📉 Efficient and lightweight
 
 ---
-# Method
-
-In this work, 
 
 
 # Results
