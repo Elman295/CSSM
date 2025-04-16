@@ -3,6 +3,7 @@
  
 #  CSSM
 **Change State Space Models for Remote Sensing Change Detection**
+
 [**E.Ghazaei**](https://scholar.google.com/citations?user=R-ghC00AAAAJ&hl=en), [**E.Aptoula**](https://sites.google.com/view/erchan-aptoula/) 
 
  Faculty of Engineering and Natural Sciences (VPALab), Sabanci University, Istanbul, Turkiye
