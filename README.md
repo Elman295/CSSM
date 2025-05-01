@@ -16,7 +16,7 @@
 
 ## 🏆 Updates
 
-- 🔥 **Apr. 2025**: it has been submitted to IEEE TGRS!
+- 🔥 **Apr. 2025**: it has been published by JURSE 2025 Conference!!
 
 
 ---
@@ -24,10 +24,6 @@
 
 ## 🚀 Overview
 
-
-- 🧠 Focuses on changed regions for remote sensing change detection
-- ⚡ Achieves **SOTA** with minimal parameters
-- 📉 Efficient and lightweight
 
 ---
 
