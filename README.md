@@ -25,6 +25,11 @@
 ## 🚀 Overview
 
 
+- 🧠 Focuses on changed regions for remote sensing change detection
+- ⚡ Achieves **SOTA** with minimal parameters
+- 📉 Efficient and lightweight
+
+
 ---
 
 
