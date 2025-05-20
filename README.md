@@ -16,7 +16,7 @@
 
 ## 🏆 Updates
 
-- 🔥 **Apr. 2025**: it has been submitted to IEEE TGRS!
+
 
 
 ---
