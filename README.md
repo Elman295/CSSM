@@ -15,7 +15,7 @@
 
 ## 🛎️Updates
 * **` Notice🐍🐍`**: CSSM has been accepted by [IEEE GRSL](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8859)! We'd appreciate it if you could give this repo a ⭐️**star**⭐️ and stay tuned!!
-* **` Nov 04th, 2025`**: The CSSM model and training code uploaded. You are welcome to use them!!
+* **` Nov 05th, 2025`**: The CSSM model and training code uploaded. You are welcome to use them!!
 
 
 
