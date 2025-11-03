@@ -56,7 +56,8 @@ We used [LEVIR-CD+](https://www.kaggle.com/datasets/mdrifaturrahman33/levir-cd-c
 ---
 # Results
 
-![Screenshot from 2025-04-13 14-51-16](https://github.com/user-attachments/assets/36f7487a-c08b-4205-9c05-e9b909ef0c89)
+<img width="1365" height="780" alt="Screenshot from 2025-11-03 18-02-18" src="https://github.com/user-attachments/assets/2dabac8d-9ab5-467d-9dbe-6aa5266b2e5f" />
+
 
 
 
