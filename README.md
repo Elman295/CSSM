@@ -42,6 +42,17 @@
 ## Datasets
 We used [LEVIR-CD+](https://www.kaggle.com/datasets/mdrifaturrahman33/levir-cd-change-detection), [SYSU-CD](https://github.com/liumency/SYSU-CD), and [WHU-CD](http://gpcv.whu.edu.cn/data/building_dataset.html) as the main datasets, while [CDD](http://gpcv.whu.edu.cn/data/building_dataset.html) and [OSCD](https://www.kaggle.com/datasets/soumikrakshit/onera-satellite-change-detection-dataset) were included in the ablation study to demonstrate the robustness of our model under different conditions.
 
+
+**Qualitative Analysis:**
+
+
+
+
+
+<p align="center">
+<img width="1379" height="357" alt="Screenshot from 2025-11-03 16-38-52" src="https://github.com/user-attachments/assets/c63690af-fd07-40af-b991-2b5b33ff53af" />
+</p>
+
 ---
 # Results
 
