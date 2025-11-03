@@ -60,12 +60,5 @@ We used [LEVIR-CD+](https://www.kaggle.com/datasets/mdrifaturrahman33/levir-cd-c
 
 
 
-
-# Complexity
-
-<div align="center">
-
-![Screenshot from 2025-04-13 14-56-37](https://github.com/user-attachments/assets/b4b50828-fdd0-4b31-a4c2-e802ec43b404)
-
-</div>
-
+# QA
+If you have any questions, please contact Elman Ghazaei at elman.ghazaei@sabanciuniv.edu.
