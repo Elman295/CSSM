@@ -26,9 +26,14 @@
 ## 🚀 Overview
 
 
-- 🧠 Focuses on changed regions for remote sensing change detection
-- ⚡ Achieves **SOTA** with minimal parameters
-- 📉 Efficient and lightweight
+* [**CSSM**]() serves as an efficient and state-of-the-art (SOTA) benchmark for binary change detection.
+
+
+
+<p align="center">
+  
+<img width="1395" height="579" alt="Screenshot from 2025-11-03 16-28-31" src="https://github.com/user-attachments/assets/dccfdfc5-98b4-443d-b170-07e5e3ec551d" />
+</p>
 
 
 ---
