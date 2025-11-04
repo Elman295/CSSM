@@ -41,10 +41,14 @@
 
 ## 📦 Requirements
 ```bash
-pip install torch torchvision
-pip install numpy matplotlib
-pip install opencv-python
-# Add other dependencies as needed
+
+pip install torch torchvision torchaudio
+pip install  pillow
+pip install numpy scipy pandas
+pip install matplotlib seaborn
+pip install einops 
+pip install torchinfo
+
 ```
 
 
