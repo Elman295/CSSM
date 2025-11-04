@@ -57,9 +57,6 @@ This project supports three main change detection datasets:
 - **SYSU-CD** - [Download](https://github.com/liumency/SYSU-CD)
 - **WHU-CD** - [Download](http://gpcv.whu.edu.cn/data/building_dataset.html)
 
-Additional datasets used in ablation studies:
-- **CDD** - [Download](http://gpcv.whu.edu.cn/data/building_dataset.html)
-- **OSCD** - [Download](https://www.kaggle.com/datasets/soumikrakshit/onera-satellite-change-detection-dataset)
 ---
 
 ### Dataset Structure
