@@ -296,7 +296,7 @@ If you have any questions, please contact Elman Ghazaei at elman.ghazaei@sabanci
 
 ---
 
-**Qualitative Analysis:**
+## Qualitative Analysis:
 
 
 
