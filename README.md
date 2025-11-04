@@ -42,7 +42,7 @@
 ## 📦 Requirements
 ```bash
 
-pip install torch torchvision torchaudio
+pip install torch torchvision 
 pip install  pillow
 pip install numpy scipy pandas
 pip install matplotlib seaborn
