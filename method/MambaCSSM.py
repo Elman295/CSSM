@@ -141,22 +141,22 @@ class MambaBlock_CD(nn.Module):
 
         t2_dbl = self.x_proj(t2)  # (b, l, dt_rank + 2*n)
         
-        (delta, B_prim, C_prim) = t2_dbl.split(split_size=[self.dt_rank, n, n], dim=-1)  # delta: (b, l, dt_rank). B, C: (b, l, n)
-        delta = F.softplus(self.dt_proj(delta))  # (b, l, d_in)
+        (delta_prim, B_prim, C_prim) = t2_dbl.split(split_size=[self.dt_rank, n, n], dim=-1)  # delta: (b, l, dt_rank). B, C: (b, l, n)
+        delta_prim = F.softplus(self.dt_proj(delta_prim))  # (b, l, d_in)
         
-        y = self.selective_scan(t1,t2, delta, A, B, C, D, A_prim, B_prim, C_prim, D_prim)  # This is similar to run_SSM(A, B, C, u) in The Annotated S4 [2]
+        y = self.selective_scan(t1,t2, delta, delta_prim, A, B, C, D, A_prim, B_prim, C_prim, D_prim)  # This is similar to run_SSM(A, B, C, u) in The Annotated S4 [2]
         
         return y
 
     
-    def selective_scan(self, t1,t2, delta, A, B, C, D, A_prim, B_prim, C_prim, D_prim):
+    def selective_scan(self, t1,t2, delta, delta_prim, A, B, C, D, A_prim, B_prim, C_prim, D_prim):
 
         (b, l, d_in) = t1.shape
         n = A.shape[1]
 
         deltaA = torch.exp(einsum(delta, A, 'b l d_in, d_in n -> b l d_in n'))
         deltaB_u = einsum(delta, B, t1, 'b l d_in, b l n, b l d_in -> b l d_in n')
-        deltaB_u_prim = einsum(delta, B_prim, t2, 'b l d_in, b l n, b l d_in -> b l d_in n')
+        deltaB_u_prim = einsum(delta_prim, B_prim, t2, 'b l d_in, b l n, b l d_in -> b l d_in n')
 
         x = torch.zeros((b, d_in, n), device=deltaA.device)
         ys = []    
@@ -172,7 +172,7 @@ class MambaBlock_CD(nn.Module):
         (b, l, d_in) = t2.shape
         n = A_prim.shape[1]
 
-        deltaA_prim = torch.exp(einsum(delta, A_prim, 'b l d_in, d_in n -> b l d_in n'))
+        deltaA_prim = torch.exp(einsum(delta_prim, A_prim, 'b l d_in, d_in n -> b l d_in n'))
         # deltaB_u = einsum(delta, B, u, 'b l d_in, b l n, b l d_in -> b l d_in n')
 
         x = torch.zeros((b, d_in, n), device=deltaA.device)
